@@ -1,0 +1,5 @@
+Bei der Verwendung von UDP für die Kommunikation zwischen den drei Klassen sind folgende Punkte zu beachten:
+
+Zuverlässigkeit: UDP ist ein verbindungsloses Protokoll, daher müssen Mechanismen implementiert werden, um sicherzustellen, dass gesendete Nachrichten beim Empfänger ankommen.
+Fehlervermeidung: Um Fehlkommunikation zu vermeiden, sollten Nachrichten formatiert und codiert werden, um Missverständnisse zu minimieren. Hierzu könnten Prüfsummen und eindeutige Identifikatoren für Nachrichten verwendet werden.
+Kompatibilität: Es muss sichergestellt werden, dass alle Programme die Nachrichten korrekt interpretieren. Dies erfordert eine klare Definition der Nachrichtenformate und Protokolle.

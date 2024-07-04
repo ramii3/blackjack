@@ -1,0 +1,23 @@
+a) Der Croupier
+Der Croupier erstellt die Karten, bestehend aus 1-8 Kartendecks mit den Rängen {2-10, Bube, Dame, König, Ass} und den Typen {Pik, Kreuz, Herz, Karo}. Er hat folgende Aufgaben:
+
+Karten mischen und verteilen.
+Überprüfen, ob ein Spieler gewonnen hat.
+Berechnen, wie viel Geld der Spieler bekommt.
+Anfordern von Statistiken vom Kartenzähler, um zu entscheiden, wann ein Spieler des Casinos verwiesen wird.
+Eigenständige Entscheidung über Spielaktionen (ohne Empfehlungen vom Kartenzähler).
+
+b) Der Spieler
+Der Spieler verfügt über ein Startkapital und kann Spielaktionen wie „Hit“, „Stand“, „Split“, „Double Down“, „Surrender“ ausführen. Seine Aufgaben sind:
+
+Einen Wetteinsatz an den Croupier geben.
+Nach dem Spiel eine Gewinnausschüttung erhalten.
+Berechnung der optimalen Höhe des Einsatzes, möglicherweise unter Zuhilfenahme von Informationen vom Kartenzähler.
+
+c) Der Kartenzähler
+Der Kartenzähler hat die folgenden Aufgaben:
+
+Anfragen beim Croupier, mit wie vielen Kartensets das Spiel gespielt wird und welche Karten ausgegeben wurden.
+Berechnung der optimalen Aktion mit dem höchsten Erwartungswert für den Spieler.
+Erstellung und Speicherung von Statistiken für jedes Spiel.
+Weitergabe von Statistiken an Spieler oder Croupier bei Bedarf.

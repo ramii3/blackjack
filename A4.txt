@@ -1,0 +1,21 @@
+Die Implementierung und Kommunikation der Blackjack-Programme war herausfordernd, aber lehrreich. Wir mussten ein einheitliches Kommunikationsprotokoll und klare Nachrichtenformate festlegen, um eine reibungslose Interaktion zwischen den Programmen sicherzustellen.
+
+Einigung auf Nachrichtenformate
+Wir entschieden uns, JSON als Nachrichtenformat zu verwenden, um die Nachrichten zwischen den Programmen klar und verständlich zu halten. 
+
+inheitliche Objekte
+Karten und Statistiken wurden in einem einheitlichen Format gehalten. Karten wurden deutschsprachig benannt (z.B. Bube, Dame, König, Ass, Karo, Pik, Herz, Kreuz) und als JSON-Objekte serialisiert.
+
+Kommunikation und Registrierung
+Spieler registrierten sich beim Croupier mit Nachrichten wie registerPlayer <IP-Adresse> <Port> <Name>, und der Croupier bestätigte die Registrierung. Die Spieler sendeten Aktionen wie HIT oder STAND an den Croupier, der entsprechend reagierte.
+
+Herausforderungen
+Zu den größten Herausforderungen gehörten die Fehlerbehandlung und die Synchronisation der Nachrichten.
+
+
+
+
+
+
+
+
